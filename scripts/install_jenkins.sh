@@ -6,5 +6,7 @@ sudo dnf install -y jenkins
 sudo systemctl daemon-reload
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
+sudo dnf install -y git
+sudo dnf install -y maven
 sleep 5
 nohup sudo python3 -m http.server --directory /var/lib/jenkins/secrets/  80 &
