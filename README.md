@@ -29,3 +29,5 @@ key_name = "jenkins_ssh_keys"
 - Set new admin user and password.
 - Install default plugins
 
+## Examples
+
